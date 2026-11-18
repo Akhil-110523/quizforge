@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QuizForge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Quiz<span>Forge</span></h1>
+    <p>A web-technology quiz engine powered by XML</p>
+  </header>
+
+  <div class="app">
+    <main>
+      <p id="err" role="alert" hidden></p>
+
+      <!-- Setup -->
+      <section id="setup" class="panel">
+        <h2 class="title">Start a round</h2>
+        <form id="startForm">
+          <label>Your name
+            <input id="name" maxlength="20" placeholder="e.g. Priya" autocomplete="nickname">
+          </label>
+          <label>Topic
+            <select id="category">
+              <option>All</option><option>HTML</option><option>CSS</option>
+              <option>JavaScript</option><option>PHP</option><option>XML</option>
+            </select>
+          </label>
+          <button type="submit">Start quiz</button>
+        </form>
+        <p class="hint">5 random questions · 20 seconds each · press 1-4 to answer, Enter for next</p>
+      </section>
+
+      <!-- Play -->
+      <section id="play" class="panel" hidden>
+        <div class="hud"><span id="count"></span><span id="clock"></span></div>
+        <div class="progress"><i id="bar"></i></div>
+        <div id="stage"></div>
+        <button id="next" type="button">Next</button>
+      </section>
+
+      <!-- Result -->
+      <section id="result" class="panel" hidden>
+        <div id="resultBox"></div>
+        <button id="again" type="button">Play again</button>
+      </section>
+    </main>
+
+    <aside class="panel">
+      <h2 class="title">Leaderboard</h2>
+      <div id="board">Loading…</div>
+    </aside>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

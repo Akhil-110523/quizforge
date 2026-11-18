@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE questions SYSTEM "questions.dtd">
+<questions>
+  <question id="1" category="HTML">
+    <text>Which HTML tag defines the largest heading?</text>
+    <option>&lt;h6&gt;</option><option>&lt;h1&gt;</option><option>&lt;head&gt;</option><option>&lt;header&gt;</option>
+    <answer>1</answer>
+    <explain>Headings run from h1 (largest) to h6 (smallest). The head tag holds page metadata, not a heading.</explain>
+  </question>
+  <question id="2" category="HTML">
+    <text>Which element is meant for a block of main navigation links?</text>
+    <option>&lt;menu&gt;</option><option>&lt;links&gt;</option><option>&lt;nav&gt;</option><option>&lt;section&gt;</option>
+    <answer>2</answer>
+    <explain>The nav element is the semantic HTML5 container for major navigation links.</explain>
+  </question>
+  <question id="3" category="HTML">
+    <text>Which element holds self-contained content such as a blog post?</text>
+    <option>&lt;div&gt;</option><option>&lt;article&gt;</option><option>&lt;aside&gt;</option><option>&lt;span&gt;</option>
+    <answer>1</answer>
+    <explain>An article is independent content that makes sense on its own, such as a post or news story.</explain>
+  </question>
+  <question id="4" category="CSS">
+    <text>Which CSS property changes the text colour?</text>
+    <option>background-color</option><option>font-color</option><option>color</option><option>text-style</option>
+    <answer>2</answer>
+    <explain>The color property sets text colour. background-color sets the background.</explain>
+  </question>
+  <question id="5" category="CSS">
+    <text>What does display: flex create?</text>
+    <option>A one-dimensional flexible layout</option><option>A table layout</option><option>A popup window</option><option>An animation</option>
+    <answer>0</answer>
+    <explain>Flexbox lays items out along one axis (row or column) and distributes space between them.</explain>
+  </question>
+  <question id="6" category="CSS">
+    <text>Which unit is relative to the root element's font size?</text>
+    <option>px</option><option>rem</option><option>pt</option><option>cm</option>
+    <answer>1</answer>
+    <explain>rem means "root em": it scales with the font size of the html element.</explain>
+  </question>
+  <question id="7" category="JavaScript">
+    <text>Which array method adds an item to the end?</text>
+    <option>pop()</option><option>shift()</option><option>push()</option><option>unshift()</option>
+    <answer>2</answer>
+    <explain>push() appends to the end. pop() removes from the end, and unshift() adds to the start.</explain>
+  </question>
+  <question id="8" category="JavaScript">
+    <text>What does typeof null return?</text>
+    <option>"null"</option><option>"undefined"</option><option>"object"</option><option>"number"</option>
+    <answer>2</answer>
+    <explain>This is a long-standing quirk of JavaScript: typeof null is "object".</explain>
+  </question>
+  <question id="9" category="JavaScript">
+    <text>What does the === operator compare?</text>
+    <option>Value only</option><option>Type only</option><option>Value and type</option><option>Memory address only</option>
+    <answer>2</answer>
+    <explain>Strict equality checks both value and type, with no type conversion.</explain>
+  </question>
+  <question id="10" category="PHP">
+    <text>A PHP variable name starts with which symbol?</text>
+    <option>@</option><option>$</option><option>#</option><option>&amp;</option>
+    <answer>1</answer>
+    <explain>All PHP variables begin with a dollar sign, for example $name.</explain>
+  </question>
+  <question id="11" category="PHP">
+    <text>Which PHP function counts the elements of an array?</text>
+    <option>size()</option><option>length()</option><option>count()</option><option>total()</option>
+    <answer>2</answer>
+    <explain>count() returns the number of elements in an array.</explain>
+  </question>
+  <question id="12" category="PHP">
+    <text>Which superglobal holds data from a form that uses method="post"?</text>
+    <option>$_GET</option><option>$_POST</option><option>$_SESSION</option><option>$_SERVER</option>
+    <answer>1</answer>
+    <explain>$_POST contains values sent in the HTTP request body by a POST form.</explain>
+  </question>
+  <question id="13" category="XML">
+    <text>Which technology defines the allowed structure of an XML document?</text>
+    <option>XSL</option><option>DTD</option><option>AJAX</option><option>CSS</option>
+    <answer>1</answer>
+    <explain>A DTD (Document Type Definition) lists the elements and attributes a valid document may contain.</explain>
+  </question>
+  <question id="14" category="XML">
+    <text>XML tag names are:</text>
+    <option>Case-insensitive</option><option>Case-sensitive</option><option>Always uppercase</option><option>Optional</option>
+    <answer>1</answer>
+    <explain>In XML, &lt;Name&gt; and &lt;name&gt; are different elements, and opening and closing tags must match exactly.</explain>
+  </question>
+  <question id="15" category="XML">
+    <text>Which language transforms XML into HTML?</text>
+    <option>XSLT</option><option>DTD</option><option>SQL</option><option>JSON</option>
+    <answer>0</answer>
+    <explain>XSLT applies template rules to an XML tree and produces HTML or other output.</explain>
+  </question>
+</questions>

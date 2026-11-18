@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE scores SYSTEM "scores.dtd">
+<scores>
+  <entry name="Ananya" category="All" score="5" total="5" date="2026-11-10"/>
+  <entry name="Kiran" category="PHP" score="4" total="5" date="2026-11-12"/>
+  <entry name="Sameer" category="XML" score="3" total="5" date="2026-11-14"/>
+</scores>

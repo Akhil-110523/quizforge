@@ -1,0 +1,9 @@
+<!ELEMENT questions (question+)>
+<!ELEMENT question (text, option, option, option, option, answer, explain)>
+<!ATTLIST question
+  id       CDATA #REQUIRED
+  category (HTML|CSS|JavaScript|PHP|XML) #REQUIRED>
+<!ELEMENT text    (#PCDATA)>
+<!ELEMENT option  (#PCDATA)>
+<!ELEMENT answer  (#PCDATA)>
+<!ELEMENT explain (#PCDATA)>
